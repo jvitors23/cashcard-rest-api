@@ -4,6 +4,14 @@ Spring boot web application implementing simple CRUD rest API for managing cashc
 
 Project from [Building a REST API with Spring Boot](https://spring.academy/courses/building-a-rest-api-with-spring-boot) spring academy course.
 
+# Endpoints
+
+* POST ```/cashcards/```: Creates a new cashcard
+* GET ```/cashcards/```: List all cashcards
+* GET ```/cashcards/{id}```: Retrieves cashcard
+* PUT ```/cashcards/{id}```: Updates cashcard
+* DELETE ```/cashcards/{id}```: Deletes cashcard
+
 ## Running the project
 
 You can run the project by executing:
